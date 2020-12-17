@@ -1,0 +1,676 @@
+<resources>
+    <string name="app_name">RVF</string>
+
+    <string name="login">LOG IN</string>
+    <string name="verify_mobile_number">VERIFY YOUR MOBILE NUMBER</string>
+    <string name="ente_your_otp">Enter your otp here</string>
+    <string name="login_button">Login</string>
+    <string name="user_id">User ID</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="button_continue">Continue</string>
+    <string name="otp_expires_in">OTP Expires in</string>
+    <string name="password">Password</string>
+    <string name="app_store">APP STORE</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="app_version">App Version 1.1.0</string>
+    <string name="dummy_app_name">App Name</string>
+    <string name="download">Download</string>
+    <string name="install">Install</string>
+    <string name="open">Open</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="company_code">Company Code </string>
+    <string name="version">Version</string>
+
+
+    <string-array name="scheme_code">
+        <item>Select Scheme code</item>
+    </string-array>
+
+    <string-array name="make">
+        <item>Select Make</item>
+    </string-array>
+
+    <string-array name="state">
+        <item>Select State</item>
+    </string-array>
+
+    <string-array name="select_applicant_kyc_type">
+        <item>Select kyc type</item>
+        <item>Aadhaar Card</item>
+        <item>Voter-ID</item>
+        <item>Driving License</item>
+        <item>Passport</item>
+        <item>Pan Card</item>
+    </string-array>
+
+    <string-array name="model">
+        <item>Select Model</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>Select Year</item>
+
+    </string-array>
+
+    <string-array name="model_lead">
+        <item>Select Model</item>
+        <item>215 Yuvaraj Next</item>
+        <item>188 4WD</item>
+        <item>YUVRAJ 215 NXT</item>
+        <item>SWARAJ 717</item>
+        <item>A211N - Big Tyres</item>
+
+    </string-array>
+
+    <string-array name="product_type_lead">
+        <item>Select product type</item>
+        <item>New Tractor</item>
+        <item>Used Tractor</item>a
+        <item>Farm Equipment</item>
+
+
+    </string-array>
+    <string-array name="product_details_type">
+        <item>Select product type</item>
+    </string-array>
+    <string-array name="pslcode">
+        <item>Select PSL Code</item>
+        <item>Small and Marginal farmer</item>
+        <item>Small Farmer</item>
+        <item>Other farmer</item>a
+        <item>Non PSL</item>
+    </string-array>
+
+    <string-array name="categorytype">
+        <item>Select category</item>
+        <item>Applicant</item>
+        <item>Co-Applicant</item>
+    </string-array>
+
+    <string-array name="select_communication_kyc_type">
+        <item>Communication KYC Type</item>
+        <item>Aadhaar Card</item>
+        <item>Voter-ID</item>
+        <item>Driving License</item>
+        <item>Passport</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="select_permanent_kyc_type">
+        <item>Communication KYC Type</item>
+        <item>Aadhaar Card</item>
+        <item>Voter-ID</item>
+        <item>Driving License</item>
+        <item>Passport</item>
+        <item>Pancard</item>
+        <item>Other</item>
+
+    </string-array>
+
+
+    <string-array name="new_tractor_schemecode">
+        <item>Select Scheme Code</item>
+        <item>RVTRL</item>
+        <item>RVTRC</item>
+        <item>RVXPS</item>
+        <item>RVUTF</item>
+        <item>RVEQU</item>
+    </string-array>
+
+
+    <string-array name="used_tractor_schemecode">
+        <item>Select Scheme Code</item>
+        <item>RVUTF</item>
+        <item>RVTRL</item>
+        <item>RVTRC</item>
+        <item>RVXPS</item>
+        <item>RVUTF</item>
+        <item>RVEQU</item>
+    </string-array>
+
+    <string-array name="schemecode">
+        <item>Select Scheme Code</item>
+        <item>RVTRL</item>
+        <item>RVTRC</item>
+        <item>RVXPS</item>
+        <item>RVUTF</item>
+        <item>RVEQU</item>
+    </string-array>
+    <string-array name="selectownernames">
+        <item>Select Name</item>
+
+    </string-array>
+
+    <string-array name="farm_equipment">
+        <item>Select Scheme Code</item>
+        <item>RVTRL</item>
+        <item>RVTRC</item>
+        <item>RVXPS</item>
+        <item>RVUTF</item>
+        <item>RVEQU</item>
+    </string-array>
+
+    <string-array name="farm_equipmentmake">
+        <item>Select Make</item>
+        <item>Combine Harvester (Track Type)</item>
+        <item>Combine Harvester (Wheel Type)</item>
+        <item>Combine Harvester Box (Tractor Mounted)</item>
+    </string-array>
+
+
+    <string-array name="owner_name">
+        <item>Select Owner Name</item>
+    </string-array>
+
+
+    <string-array name="source_of_aquisition">
+        <item>Select Source of aquisition</item>
+        <item>Dealer</item>
+        <item>Direct</item>
+        <item>Branch</item>
+        <item>DSE</item>
+        <item>DSA</item>
+        <item>Referrer</item>
+
+    </string-array>
+
+    <string-array name="fi_Relationship_with_Applicant">
+        <item>Select Relationship with Applicant</item>
+        <item>Spouse</item>
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Daughter</item>
+        <item>Son</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Sister-in-law</item>
+        <item>Brother -in-Law</item>
+        <item>Mother-in-law</item>
+        <item>Father-in-law</item>
+    </string-array>
+
+
+    <string-array name="fi_customer">
+        <item>Select Customer Type</item>
+        <item>New To Bank</item>
+        <item>First Time User </item>
+        <item>First Time Buyer</item>
+        <item>Repeat Buyer</item>
+    </string-array>
+    ////CIF Details
+    <string-array name="cif_nationality">
+        <item>Select  Nationality Type</item>
+        <item>Indian</item>
+    </string-array>
+    //Religion
+    <string-array name="cif_religion">
+    <item>Select  Religion Type</item>
+    <item>Hindu</item>
+    <item>Muslim</item>
+    <item>Sikh</item>
+    <item>Christian</item>
+    <item>Buddhism</item>
+    <item>Jainism</item>
+    </string-array>
+    //Caste
+    <string-array name="cif_caste">
+        <item>Select  Caste Type</item>
+        <item>General</item>
+        <item>OBC</item>
+        <item>SC</item>
+        <item>ST</item>
+        <item>Others</item>
+</string-array>
+    //Community
+    <string-array name="cif_community">
+        <item>Select  Community Type</item>
+        <item>BUDDHIST</item>
+        <item>CHRISTIAN</item>
+        <item>HINDU</item>
+        <item>JAINISM</item>
+        <item>JEWIS</item>
+        <item>MUSLIM</item>
+        <item>ALL OTHER COMMUNITY</item>
+        <item>SIKH</item>
+        <item>ZORASTRIAN</item>
+    </string-array>
+    //Employment Status
+    <string-array name="cif_employment_status">
+        <item>Select  Employment Status Type</item>
+        <item>HOUSEWIFE</item>
+        <item>POLITICIAN</item>
+        <item>RETRIED</item>
+        <item>SALARIED</item>
+        <item>SELF-EMPLOYED</item>
+        <item>STUDENT</item>
+        <item>UNEMPLOYED</item>
+        <item>OTHERS</item>
+    </string-array>
+    //Nature of Income
+    <string-array name="cif_nature_of_income">
+        <item>Select  Nature of Income Type</item>
+        <item>AGRICULTURE</item>
+        <item>BUSINESS INCOME</item>
+        <item>INVESTMENT INCOME</item>
+        <item>SALARY</item>
+        <item>OTHERS</item>
+    </string-array>
+    //Occupation
+    <string-array name="cif_occupation">
+        <item>Select  Occupation Type</item>
+        <item>Finance</item>
+        <item>Financial Consultant And Data Processing</item>
+        <item>Financial Services</item>
+        <item>Furniture Trader</item>
+        <item>Gems And Precious Metals</item>
+        <item>Govt Contactor</item>
+        <item>Govt Service</item>
+        <item>Harvesting And Transporting Sugarcane</item>
+        <item>Hotel</item>
+        <item>House Wife</item>
+        <item>Industrialist</item>
+        <item>Information Technology</item>
+        <item>Job Consultancy</item>
+        <item>Journalist</item>
+        <item>Labour Contract</item>
+        <item>Lawyer</item>
+        <item>Managerial</item>
+        <item>Manufactuiring Of Cloth</item>
+        <item>Manufacturing Of Cloth On Job Basis</item>
+        <item>Milk Collection Dairy</item>
+        <item>Non Working</item>
+        <item>Optical Shop</item>
+        <item>Pensioner</item>
+        <item>Private Sector Employee</item>
+        <item>Professional</item>
+        <item>Professor</item>
+        <item>Property Dealer</item>
+        <item>PSU Employee</item>
+        <item>Public Utilities And Services</item>
+        <item>Publications</item>
+        <item>Real Estate Business</item>
+        <item>Reseller Of Cattel Feed</item>
+        <item>Retail Outlet Of Beer Shoppee</item>
+        <item>Retailer</item>
+        <item>Retired</item>
+        <item>Road Contractor</item>
+        <item>Salaried</item>
+        <item>Sales</item>
+        <item>Self Employed</item>
+        <item>Service</item>
+        <item>Small Businessman</item>
+        <item>Social Worker</item>
+        <item>Solicitor</item>
+        <item>Student</item>
+        <item>Tax Consultant</item>
+        <item>Teacher</item>
+        <item>Tours And Travels Consultant</item>
+        <item>Trader</item>
+        <item>Trading Of Cattle Feed</item>
+        <item>Transport Operator</item>
+        <item>Travelling Business</item>
+        <item>Turmeric Merchant And Comm Agent</item>
+        <item>Vegetable Vendor</item>
+        <item>Water Supplier</item>
+        <item>Wholesaler-Ganpati Idol Maker</item>
+        <item>Other Technical</item>
+        <item>Others</item>
+        <item>Academic</item>
+        <item>Actor</item>
+        <item>Advocate</item>
+        <item>Agency</item>
+        <item>Agriculture And Allied Activities</item>
+        <item>Architect</item>
+        <item>Banker</item>
+        <item>Broker</item>
+        <item>Business</item>
+        <item>Business Manufacturing</item>
+        <item>Business Other</item>
+        <item>Cable Distributor</item>
+        <item>Catering</item>
+        <item>Chartered Accountant</item>
+        <item>Civil Contractor</item>
+        <item>Clerical</item>
+        <item>Computer Related</item>
+        <item>Connector For Lap And Retails Assets</item>
+        <item>Construction</item>
+        <item>Construction Of Roads - PWD Contractor</item>
+        <item>Consultant</item>
+        <item>Defence Force</item>
+        <item>Doctor/ Dentist</item>
+        <item>Electrical Contractor</item>
+        <item>Engineer</item>
+        <item>Engineering Consultant</item>
+        <item>Entrepreneur</item>
+        <item>Executive</item>
+        <item>Exporter</item>
+    </string-array>
+    //Gross Annual Income
+    <string-array name="cif_gross_annual_income">
+        <item>Select  Gross Annual Income Type</item>
+        <item>3Lakh-5Lakhs</item>
+    </string-array>
+
+
+
+
+    ////Fi Product details
+    <string-array name="fi_product_details">
+        <item>Select product Type</item>
+        <item>New Tractor</item>
+        <item>Used Tractor</item>
+        <item>Farm Equipment</item>
+    </string-array>
+    /////Source of margin money
+    <string-array name="fi_product_source_of_margin_money">
+        <item>Select source of margin money type</item>
+        <item>Exchange of old Tractor</item>
+        <item>Own funds</item>
+        <item>Others</item>
+    </string-array>
+    /////Repayment frequency
+    <string-array name="fi_product_Repayment_frequency">
+        <item>Select repayment frequency type</item>
+        <item>Monthly</item>
+        <item>Quarterly</item>
+        <item>Half Yearly</item>
+        <item>Yearly</item>
+    </string-array>
+    /////Bank Deposits
+    <string-array name="fi_product_bank_deposits">
+        <item>Select bank deposits type</item>
+        <item>Deposits</item>
+        <item>NSC</item>
+        <item>KVP</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="close">Close</string>
+
+    <string-array name="spinner_loan_type">
+        <item>Select Loan Type</item>
+        <item>JLG</item>
+        <item>Individual Loan</item>
+        <item>MSME</item>
+        <item>TW</item>
+    </string-array>
+
+    <string-array name="lead_sort_by_date">
+        <item>Sort By Date</item>
+        <item>ASC</item>
+        <item>DESC</item>
+    </string-array>
+    <string-array name="spinner_absent_reason">
+        <item>Select absent reason</item>
+        <item>Leave</item>
+        <item>Member Death</item>
+        <item>Migration</item>
+        <item>Natural Calamity</item>
+        <item>Sick/Not Well</item>
+        <item>Social Event</item>
+        <item>Work</item>
+    </string-array>
+
+    <string-array name="spinner_details_reason">
+        <item>Select arrear reason</item>
+        <item>Business Loss</item>
+        <item>Center Commission</item>
+        <item>Center Leader Problem</item>
+        <item>Family Function</item>
+        <item>Festival</item>
+        <item>Husband Death</item>
+        <item>Medical</item>
+        <item>Member Death</item>
+        <item>Migration</item>
+        <item>Natural Calamity</item>
+        <item>Other Agent Commission</item>
+        <item>Out Of Village</item>
+        <item>Staff Fraud</item>
+        <item>Willful Defaulter</item>
+    </string-array>
+
+    <string-array name="spinner_cgt_absent_reason">
+        <item>Select absent reason</item>
+        <item>Business Loss</item>
+        <item>Center Commission</item>
+        <item>Center Leader Problem</item>
+        <item>Family Function</item>
+        <item>Festival</item>
+        <item>Husband Death</item>
+        <item>Medical</item>
+        <item>Member Death</item>
+        <item>Migration</item>
+        <item>Natural Calamity</item>
+        <item>Other Agent Commission</item>
+        <item>Out Of Village</item>
+        <item>Staff Fraud</item>
+        <item>Willful Defaulter</item>
+    </string-array>
+
+
+    <string-array name="lead_sort_by_application_stage">
+        <item>Sort By Application Stage</item>
+    </string-array>
+
+    <string-array name="user_roles">
+        <item>Select Role</item>
+    </string-array>
+
+
+    <string-array name="lead_sort_by_alphabetical_order">
+        <item>Sort By Alphabet</item>
+        <item>ASCENDING</item>
+        <item>DESCENDING</item>
+    </string-array>
+    <string-array name="lead_sort_by_loan_type">
+        <item>Sort By Loan Type</item>
+        <item>Affordable Housing Loan</item>
+        <item>Consumer Durable Loan</item>
+        <item>Individual Loan</item>
+        <item>JLG</item>
+        <item>Loan against property</item>
+        <item>Two Wheeler</item>
+        <item>MSME/Business loan</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="lead_sort_by_interested_or_not">
+        <item>Sort By Interested Loan</item>
+        <item>Interested</item>
+        <item>Not Interested</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="purpose_of_visit">
+        <item>Select purpose of visit</item>
+        <item>Cold calling</item>
+        <item>Lead Generation</item>
+        <item>Application</item>
+        <item>Pre-PD</item>
+        <item>PD</item>
+        <item>Document Clearance</item>
+        <item>Collection</item>
+    </string-array>
+    ////FI-Land-Holding-details
+    <string-array name="fi_ownership_land_holding_details">
+        <item>Select Ownership Type</item>
+        <item>Owned</item>
+        <item>Lease</item>
+    </string-array>
+
+
+    <string-array name="select_influencer">
+        <item>select Influencer</item>
+        <item>Politician</item>
+        <item>Money lender</item>
+        <item>Lawyers</item>
+        <item>Real Estate / Property business</item>
+        <item>Police</item>
+        <item>Cable Operator</item>
+        <item>Journalist</item>
+        <item>Lottery Business</item>
+        <item>Wine shop</item>
+        <item>Bar &amp; Restaurant</item>
+    </string-array>
+
+    <string-array name="select_income_for_eligibility">
+        <item>select Income for Eligibility</item>
+        <item>Income upto Rs.1.50 lakh</item>
+        <item>Income above Rs. 1.50 lakh</item>
+
+    </string-array>
+
+    <string-array name="select_land_holding_eligibility">
+
+        <item>select Land holding Eligibility</item>
+        <item>No land</item>
+        <item>Up to 1 Acre</item>
+        <item>>1 to 3 Acres</item>
+        <item>>3 to5 Acres</item>
+        <item>>5 Acres</item>
+    </string-array>
+
+
+    <string-array name="final_recommendations">
+        <item>Select Repayment Type</item>
+        <item>Monthly</item>
+        <item>Quarterly</item>
+        <item>Half Yearly</item>
+        <item>Yearly</item>
+    </string-array>
+
+    // Asset details Source of Irrigation
+
+    <string-array name="asset_detail_source_of_irrigation">
+        <item>Select Source of Irrigation</item>
+        <item>Well/Borewell</item>
+        <item>River</item>
+        <item>Canal</item>
+        <item>Rainfed</item>
+    </string-array>
+
+    <string-array name="asset_detail_type_of_irrigation">
+        <item>Select Type of Irrigation</item>
+        <item>Drip/ Sprinker</item>
+        <item>Traditional</item>
+    </string-array>
+
+    <string-array name="asset_detail_type_of_crops_grown">
+        <item>Select Type of Crops grown</item>
+        <item>Cash Crop</item>
+        <item>Conventional crop</item>
+        <item>Horticulture</item>
+    </string-array>
+
+
+    <string-array name="asset_detail_assets">
+        <item>Select Asset</item>
+        <item>Car</item>
+        <item>Jeep/Pick up</item>
+        <item>Truck</item>
+        <item>JCB/CE</item>
+        <item>Tractor</item>
+    </string-array>
+
+    <string-array name="asset_detail_farm_equipment">
+        <item>Select Farm Equipment</item>
+        <item>Farm Equipment</item>
+        <item>Trailer 2W/4W</item>
+        <item>Thresher</item>
+        <item>Harvester</item>
+        <item>Other-Specify</item>
+    </string-array>
+
+
+    // soci economic owned types master data
+    <string-array name="socio_economic_owned">
+        <item>Select Owned Type</item>
+        <item>Borrower</item>
+        <item>Co-Borrower</item>
+        <item>Family Members</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="reference_types">
+        <item>Select Reference Type</item>
+        <item>Reference1</item>
+        <item>Reference2</item>
+    </string-array>
+    //soci economic Approach Road to Residence master data
+    <string-array name="road_residence">
+        <item>Select Road Approach Type</item>
+        <item>Through Own Farm</item>
+        <item>Approved  approach through Others farm</item>
+        <item>Normal  approach Road</item>
+        <item>Difficult to reach</item>
+    </string-array>
+    //Ease of Recovery / Repossession master data
+    <string-array name="ease_recovery">
+        <item>Select Ease of Recovery / Repossession Type</item>
+        <item>Easy</item>
+        <item>Likely to be difficult</item>
+
+    </string-array>
+    <string name="forgotpassword"> &lt;u>Forgot your password?&lt;/u></string>
+
+    <string name="details">&lt;u>Details&lt;/u></string>
+    <string name="yes_or_no">&lt;u>Yes/No&lt;/u></string>
+
+
+    <string name="sod">SOD </string>
+    <string name="eod">EOD </string>
+    <string name="tag_name_mobile_number">MOBILE NUMBER</string>
+    <string name="tag_name_first_name">FIRST NAME</string>
+    <string name="salutation">SALUTATION</string>
+    <string name="last_name">LAST NAME</string>
+    <string name="product_type">PRODUCT TYPE</string>
+    <string name="schemecode">SCHEME CODE</string>
+    <string name="state">STATE</string>
+    <string name="make">MAKE</string>
+    <string name="model">MODEL</string>
+    <string name="year">YEAR</string>
+    <string name="ndlp">NET DEALER LANDING PRICE</string>
+    <string name="rpm">RESALE PRICE MATRIX</string>
+    <string name="dqp">DEALER QUOTATION PRICE</string>
+    <string name="lar">LOAN AMOUNT REQUESTED</string>
+    <string name="TAG_NAME_CATEGORY">CATEGORY</string>
+    <string name="TAG_NAME_Owner_Name">OWNER NAME</string>
+    <string name="TAG_NAME_Landholding_in_acres">LANDHOLDING IN ACRES</string>
+    <string name="TAG_NAME_Family_Landholding_in_acres">FAMILY LANDHOLDING IN ACRES</string>
+    <string name="TAG_NAME_Classification">CLASSIFICATION</string>
+    <string name="TAG_NAME_PSL_Code">PSL CODE</string>
+    <string name="TAG_NAME_Residence_Statbility">RESIDENCE STATBILITY</string>
+    <string name="TAG_NAME_In_Years">IN_YEARS</string>
+    <string name="TAG_NAME_Months">MONTHS</string>
+    <string name="TAG_NAME_PANCARD">PAN CARD</string>
+    <string name="TAG_NAME_Pan_Card_ID">PAN CARD ID</string>
+    <string name="TAG_NAME_PRODUCT_TYPE">PRODUCT TYPE</string>
+    <string name="TAG_NAME_SCHEME_CODE">SCHEME CODE</string>
+    <string name="TAG_NAME_SOURCE_OF_AQUISITION">SOURCE OF AQUISITION</string>
+    <string name="TAG_NAME_TYPE_OF_BORROWER">TYPE OF BORROWER</string>
+    <string name="tag_name_phone_number">PHONE NUMBER</string>
+
+    <string name="DOB_TAG">BIRTH DATE</string>
+    <string name="ISSUE_DATE_TAG">ISSUE DATE</string>
+    <string name="EXPIRY_DATE_TAG">EXPIRY DATE</string>
+
+    <string name="TAG_NAME_CAUTION_CATEGORY">CAUTION CATEGORY</string>
+    <string name="TAG_NAME_INFLUENCER">INFLUENCER</string>
+    <string name="TAG_NAME_INCOME_FOR_ELIGIBILITY">INCOME FOR ELIGIBILITY</string>
+    <string name="TAG_NAME_LAND_HOLDING_ELIGIBILITY">LAND HOLDING ELIGIBILITY</string>
+    <string name="TAG_NAME_CROP_INCOME">CROP INCOME</string>
+    <string name="TAG_NAME_ALLIED_ACTIVITIES_INCOME">ALLIED ACTIVITIES INCOME</string>
+    <string name="TAG_NAME_OTHER_SOURCE_INCOME">OTHER SOURCE INCOME</string>
+    <string name="TAG_NAME_INCOME_FROM_TRACTOR">INCOME FROM TRACTOR</string>
+    <string name="TAG_NAME_BUSINESS_INCOME">BUSINESS INCOME</string>
+    <string name="TAG_NAME_TOTAL_NET_INCOME">TOTAL NET INCOME</string>
+
+    <string name="DATE_OF_VISIT_TAG">DATE OF VISIT</string>
+    <string name="APPLIED_OBLIGATIONS">Added Obligations</string>
+    <string name="EXISTED_REFERENCES">Added References</string>
+    <string name="new_obligations">New Obligation</string>
+    <string name="tag_name_middle_name">MIDDLE NAME</string>
+
+</resources>
